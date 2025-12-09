@@ -1,6 +1,6 @@
 import express from "express";
 import Booking from "../models/Booking.js";
-import { generateAIMechanicSummary } from "../controllers/aiController.js";
+import { generateAIMechanicSummary } from "../controllers/aicontroller.js";
 
 const router = express.Router();
 
